@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Press Start 2P";
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 39%, 95%);
+}
+.container {
+  width: 600px;
+  background-color: hsla(0, 0%, 73%, 0.427);
+  border-radius: 10px;
+  margin: 250px auto;
+  padding: 40px 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  background-color: hsla(201, 44%, 51%, 0.396);
+  padding: 25px;
+}
+.container .buttons {
+  display: flex;
+  gap: 100px;
+}
+.buttons button {
+  border: none;
+  padding: 8px;
+  background-color: hsl(0, 0%, 100%);
+}
+.container .content {
+  margin-top: 30px;
+}
+.topicList .topic {
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 22px;
+}
+.topicList .topic.selected {
+  background-color: hsl(120, 83%, 59%);
+}

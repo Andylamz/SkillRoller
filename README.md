@@ -11,12 +11,16 @@ I first built this tool when I had just finished learning Javascript DOM and arr
 At the time, I did not understand what 'fetch()' or JSON data looked like, I was just looping through a simple array.
 So I created a topic list manually in a JavaScript array of objects (called topicsData), like this:
 
+```js
+
 const topicsData = [
 {topic: "React: Redux + SPA"},
 {topic: "topic: "express + mongoose + JWT + API"},
 {topic: "JavaScript ES6 classes"},
 ...
 ]
+
+```
 
 Later I realised this structure mirrors how real API responses are typically formatted (an array of objects returned from a server).
 That discovery helped me bettwe understand the purpose of JSON and how to work with real data in future projects.
