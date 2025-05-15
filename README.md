@@ -43,4 +43,11 @@ That discovery helped me bettwe understand the purpose of JSON and how to work w
     - Option to add or edit topics in the UI
     - Track completion history
 
+## Live Demo
+
+[Click here to view the demo](https://enchanting-sunflower-8eb77c.netlify.app/)
+
+## Screenshot
+
+![App Screenshot](./image/skillRoller.png)
 This project reminds me that simple tools can be powerful, especially when they help to build long-term habits.
